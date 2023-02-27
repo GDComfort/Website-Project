@@ -1,3 +1,6 @@
+/* 
+Guillaume Comfort, IT202AL, Project 5
+CSS file for a Charle's Cooking School, Wrapper width changed, nav changed, various new nav's, and few new ones.
 
 /* UNIV SELECTOR */
 * {
@@ -82,4 +85,57 @@ main {
 }
 #clear {
     clear: both;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #960ce6;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+th {
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #960ce6;
+}
+td {
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#960ce6;
+}
+tr:nth-of-type(even) {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #960ce6;
+    background-color: #ffbe93
+}
+caption {
+    margin: 1em;
+    font-weight: bold;
+    font-size: 120%;
+}
+label {
+    float: left;
+    display: block;
+    font-weight: bold;
+    width: 10em;
+    padding-right: 1em;
+    text-align: right;
+}
+input {
+    margin-bottom: 1em;
+}
+textarea {
+    margin-bottom: 1em;
+}
+#mySubmit {
+    margin-left: 13em;
+}
+#reset {
+    margin-left: 2em;
 }
