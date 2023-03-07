@@ -1,3 +1,6 @@
+/* 
+
+CSS file for a Charle's Cooking School, now with displays for Phone/Tablet
 
 /* UNIV SELECTOR */
 * {
@@ -135,4 +138,100 @@ textarea {
 }
 #reset {
     margin-left: 2em;
+}
+#Mobile {
+    display: none;
+}
+#Desktop {
+    display: inline;
+}
+
+/* TABLET CSS */
+
+@media only screen and (max-width: 1024px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    #wrapper {
+        width: 100%;
+        min-width: 100px;
+        margin: 0px;
+        padding: 0px;
+    }
+    header {
+        padding-top: 1px;
+    }
+    h1 {
+        padding-top: 1em;
+    }
+    nav {
+        float: none;
+        width: auto;
+        padding-left: 2em;
+    }
+    nav a {
+        padding: 0.2em;
+        margin-left: 0.3em;
+        float: left;
+        width: 23%;
+    }
+    main {
+        padding: 2.5em 1em;
+        margin: 0px;
+        font-size: 90%;
+        float: clear;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    h2, h3, p, dl, main ul {
+        padding-left: 2em;
+    }
+    .floatleft {
+        margin-left: 2em;
+        margin-bottom: 1em;
+        float: left;
+        width: 200px;
+    }
+    .clear {
+        padding-left: 2em;
+    }
+}
+
+/* PHONE CSS */ 
+
+@media only screen and (max-wdith: 768px) {
+    h1 {
+        font-size: 2em;
+        padding-top: 0.25em;
+        padding-left: 1.5em;
+        width: 85%;
+        text-align: auto; /* Unsure, not clarified in Lab 6 pdf */
+    }
+    nav a {
+        padding-left: 0.5em;
+        margin-left: 0.5em;
+        float: left;
+        width: 35%;
+        min-width: 6em;
+    }
+    main {
+        padding-top: 0px;
+    }
+    .floatleft {
+        float: none;
+        display: none;
+    }
+    footer {
+        padding: 0.5em;
+        display: none;
+    }
+    #Mobile {
+        display: inline;
+    }
+    #Desktop {
+        display: none;
+    }
 }
