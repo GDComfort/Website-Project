@@ -202,13 +202,13 @@ textarea {
 
 /* PHONE CSS */ 
 
-@media only screen and (max-wdith: 768px) {
+@media only screen and (max-width: 768px) {
     h1 {
         font-size: 2em;
         padding-top: 0.25em;
         padding-left: 1.5em;
         width: 85%;
-        text-align: auto; /* Unsure, not clarified in Lab 6 pdf */
+        text-align: center; 
     }
     nav a {
         padding-left: 0.5em;
